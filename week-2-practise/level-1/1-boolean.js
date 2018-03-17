@@ -3,6 +3,17 @@
 
 var isHappy = false;
 
+function isHappyBig(people) {
+  if (isHappy) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+var howHappy = isHappyBig("Daniel");
+console.log(howHappy);
+
 if (isHappy) {
   console.log("I am happy");
 } else {

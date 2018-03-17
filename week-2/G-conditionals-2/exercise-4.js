@@ -9,13 +9,14 @@
 */
 
 function containsCode(sentence) {
-  var str = sentence;
+  return sentence.indexOf("code") !== -1;
 }
 
 var sentence = ("code your future", "draw your future", "design your future");
 
 /* 
 DO NOT EDIT BELOW THIS LINE
+*/
 var sentence1 = "code your future";
 var sentence2 = "draw your future";
 var sentence3 = "design your future";

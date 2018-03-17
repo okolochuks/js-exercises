@@ -2,7 +2,16 @@
 // TIP: You should write an expression that returns a boolean value
 
 var num = 10;
-var isBigEnough; // ONLY EDIT THIS LINE
+// ONLY EDIT THIS LINE
+function isBigEnough(num) {
+  if (num >= 10) {
+    return true;
+  } else {
+    return false;
+  }
+}
+var howBig = isBigEnough(10);
+console.log(howBig);
 
 if (isBigEnough) {
   console.log("num is bigger than or equal to 10");
