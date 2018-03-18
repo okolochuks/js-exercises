@@ -4,9 +4,12 @@
 // - return a new array with the replacement value inserted
 // - insert the replacement value at the provided index
 
-function replace(arr, index, value) {
-  return; // complete this statement
+function replace(str) {
+  return str.slice(1, str.length); // complete this statement
 }
+var arr = ["Ashleigh", "Daniel", "Mozafar", "Gordon"];
+var newArr = replace(arr);
+console.log(newArr);
 
 /* 
   DO NOT EDIT BELOW THIS LINE
