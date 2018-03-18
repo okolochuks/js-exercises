@@ -3,6 +3,8 @@
 // What was wrong with the original code?
 // Leave comments above your changes to explain
 
+// The comparison operator(==) is wrong.It suppose to be "===".
+
 var isHappy = "false";
 
 if (isHappy == true) {
