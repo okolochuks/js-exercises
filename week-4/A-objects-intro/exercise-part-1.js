@@ -7,9 +7,3 @@ Assign each of them to a separate variable
 
 */
 
-var Kitten = {
-  ageMonths: 3,
-  isFemale: true,
-  furColour: "brown"
-};
-console.log(Kitten);
