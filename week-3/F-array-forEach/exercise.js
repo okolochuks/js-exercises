@@ -7,6 +7,25 @@
   An array with numbers 0-15 has been provided.
 */
 
+var printNumbers = function(multiples) {
+  if (multiples % 3) {
+    return "fizz";
+  } else if (multiples % 3 && multiples % 5) {
+    return "fizzBuzz";
+  } else if (multiples % 5) {
+    return "Buzz";
+  } else {
+    return "eeeee";
+  }
+};
+var arr = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
+
+//arr.forEach(printNumbers);
+
+arr.forEach(number => {
+  console.log("multiple is:" + printNumbers(number));
+});
+
 var arr = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
 
 /* EXPECTED OUTPUT */

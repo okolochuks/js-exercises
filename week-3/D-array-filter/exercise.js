@@ -10,6 +10,13 @@ var pairsByIndexRaw = [[0, 3], [1, 2], [2, 1], null, [1], false, "whoops"];
 
 var pairsByIndex; // Complete this statement
 
+var validValue = function(element) {
+  return element === pairsByIndex;
+};
+
+pairsByIndexRaw.filter(validValue);
+console.log(pairsByIndexRaw.filter(validValue));
+
 function isNonPair(arr) {
   return arr === unpaired;
 }
