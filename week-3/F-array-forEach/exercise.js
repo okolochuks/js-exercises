@@ -8,15 +8,18 @@
 */
 
 var printNumbers = function(multiples) {
-  if (multiples % 3) {
-    return "fizz";
-  } else if (multiples % 3 && multiples % 5) {
-    return "fizzBuzz";
-  } else if (multiples % 5) {
-    return "Buzz";
-  } else {
-    return "eeeee";
+  var result = multiples;
+
+  if (multiples % 3 === 0) {
+    result = "fizz";
   }
+  if (multiples % 5 === 0) {
+    result = "Buzz";
+  }
+  if (multiples % 3 === 0 && multiples % 5 === 0) {
+    result = "fizzBuzz";
+  }
+  return result;
 };
 var arr = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
 
